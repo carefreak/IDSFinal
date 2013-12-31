@@ -5,7 +5,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import jpcap.*;
-import ps.*;
 
     public class IDS_GUI{
         //Globals
@@ -589,7 +588,7 @@ public void Action_B_DISABLE(ActionEvent X)
 
 public void Action_B_ANALYSE(ActionEvent X)
 {
-  new ps.BasicConfiguration().setVisible(true);
+  new capture.BasicConfiguration().setVisible(true);
 }
 
 public void CapturePackets()

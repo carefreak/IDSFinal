@@ -8,7 +8,7 @@
  *
  * Created on Mar 16, 2012, 12:01:59 AM
  */
-package ps;
+package capture;
 
 import Library.PSCaptor;
 import javax.swing.JComboBox;

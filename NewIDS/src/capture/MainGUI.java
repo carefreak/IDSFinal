@@ -8,7 +8,7 @@
  *
  * Created on Mar 15, 2012, 7:09:49 PM
  */
-package ps;
+package capture;
 
 import Library.PacketStat;
 import Library.PSCaptor;
@@ -174,8 +174,8 @@ public class MainGUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jDesktopPane1.add(packetView);
         packetView.setBounds(0, 0, 1115, 630);
-        jDesktopPane1.add(packetView, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         sessionView.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         sessionView.setEnabled(false);
@@ -205,8 +205,8 @@ public class MainGUI extends javax.swing.JFrame {
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE))
         );
 
+        jDesktopPane1.add(sessionView);
         sessionView.setBounds(0, 0, 1115, 630);
-        jDesktopPane1.add(sessionView, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         getContentPane().add(jDesktopPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 70, 1115, 630));
 
@@ -232,8 +232,8 @@ public class MainGUI extends javax.swing.JFrame {
                 .addComponent(jToolBar2, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+        jDesktopPane2.add(packetPanel);
         packetPanel.setBounds(0, 0, 130, 60);
-        jDesktopPane2.add(packetPanel, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jToolBar3.setFloatable(false);
         jToolBar3.setRollover(true);
@@ -264,8 +264,8 @@ public class MainGUI extends javax.swing.JFrame {
                 .addComponent(jToolBar3, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE))
         );
 
+        jDesktopPane2.add(sessionPanel);
         sessionPanel.setBounds(0, 0, 130, 60);
-        jDesktopPane2.add(sessionPanel, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         getContentPane().add(jDesktopPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1146, 0, 120, 60));
 

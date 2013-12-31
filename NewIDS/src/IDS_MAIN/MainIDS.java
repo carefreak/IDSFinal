@@ -1078,7 +1078,7 @@ public class MainIDS extends javax.swing.JFrame {
 
     private void b_captureActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b_captureActionPerformed
         // TODO add your handling code here
-        new ps.BasicConfiguration().setVisible(true);
+        new capture.BasicConfiguration().setVisible(true);
     }//GEN-LAST:event_b_captureActionPerformed
 
     private void ddos_checkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ddos_checkActionPerformed

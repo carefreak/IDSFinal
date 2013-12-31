@@ -256,9 +256,6 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="b_capture">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Geezer\Desktop\start.PNG"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="capture"/>
                   </Properties>
                   <Events>
@@ -806,9 +803,6 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="b_addrule">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="E:\plus.gif"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Add Rules"/>
                   </Properties>
                   <Events>
